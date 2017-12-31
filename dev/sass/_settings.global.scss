@@ -1,0 +1,51 @@
+//Media Queries
+$babyBear: "screen and (max-width : 480px)";
+$small:  "screen and (max-width : 800px)";
+$medium: "screen and (max-width : 1024px)";
+
+//Fonts
+$siteFont: 'Lato', sans-serif;
+
+//Colors
+	$blue: #667dbd;
+	$light_blue: #647bbc;
+	$green: #45b649;
+	$light_green: #58b66b;
+	$orange: #f05025;
+	$light_orange: #f36d4c;
+	$black: #231f20;
+	$grey: #b2b2b2;
+	$light_grey: #e6e6e6;
+
+//Color Map
+$page-colors: (
+	blue: #667dbd,
+	green: #45b649,
+	orange: #f05025,
+	black: #231f20,
+	white: #ffffff,
+	grey: #b2b2b2
+);
+
+@each $page-color, $color in $page-colors {
+	.bgc-#{$page-color} {
+		background-color: $color;
+	} 
+	.c-#{$page-color} {
+		color: $color;
+	}
+}
+
+.gradient-example {
+	background: linear-gradient(to bottom right, $black, $white);
+}
+
+//Misc
+$border-radius: 3px;
+$transition-in: .3s ease-in;
+$transition-out: .3s ease-out;
+
+//Grid
+$margin: 4%;
+$site-padding: 8%;
+

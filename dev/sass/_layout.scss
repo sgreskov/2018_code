@@ -1,0 +1,9 @@
+//DEFINE LAYOUT ELEMENTS
+.l-contain {
+	overflow: hidden;
+	@include fadeIn(
+		$duration: 1.5s,
+		$delay: .35s,
+		$function: ease-in-out
+  );
+}

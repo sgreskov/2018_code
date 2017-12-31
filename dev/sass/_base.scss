@@ -1,0 +1,60 @@
+//DEFINE BASIC ELEMENTS
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $siteFont;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font-family: $siteFont;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  transition: $transition-in;
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+    transition: $transition-out;
+  }
+}
+
+h1,h2 {
+  
+}
+
+h1 {
+}
+h2{
+}
+
+p {
+  font: 300 16px/24px $siteFont;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+ul, li {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
