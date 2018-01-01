@@ -1,0 +1,40 @@
+//	Headings
+
+$base-font-family: Helvetica, Arial, sans-serif !default;
+$fixed-font-family: monospace !default;
+
+.gigantic, .huge, .large, .bigger, .big,
+h1, h2, h3, h4, h5, h6 {
+}
+.gigantic {
+}
+.huge, h1 {
+}
+.large, h2 {
+}
+.bigger, h3 {
+}
+.big, h4 {
+}
+.small, small {
+}
+
+// Basic Text Style
+
+p {
+  font: 400 $font-base/($font-base * 1.5) $site-font;
+  margin: 0 0 ($font-base * 1.5) 0;
+}
+em {
+  font-style: italic;
+}
+strong {
+  nt-weight: bold;
+}
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
+}

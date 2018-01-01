@@ -1,0 +1,64 @@
+//Media Queries
+$babyBear: "screen and (max-width: 480px)";
+$small:  "screen and (max-width: 800px)";
+$medium: "screen and (max-width: 1024px)";
+
+//Main Vars
+$margin: 4%;
+$site-padding: 8%;
+
+$site-font: 'Lato', sans-serif;
+$font-base: 16px;
+
+//Cool
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$teal:  #39CCCC;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime:  #01FF70;
+
+
+
+//Warm
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$red:     #FF4136;
+$fuchsia: #F012BE;
+$purple:  #B10DC9;
+$maroon:  #85144B;
+
+//Gray Scale
+$white:  #fff;
+$silver: #ddd;
+$gray:   #aaa;
+$black:  #111;
+
+//Brand Colors
+
+//Color Map Example
+$page-colors: (
+	black: #000000,
+	white: #ffffff,
+	grey: #b2b2b2
+	
+);
+
+@each $page-color, $color in $page-colors {
+	.bgc-#{$page-color} {
+		background-color: $color;
+	} 
+	.c-#{$page-color} {
+		color: $color;
+	}
+}
+
+.gradient-example {
+	background: linear-gradient(to bottom right, black, white);
+}
+
+//Misc
+$border-radius: 3px;
+$transition-in: .3s ease-in;
+$transition-out: .3s ease-out;

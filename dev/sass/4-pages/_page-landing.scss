@@ -1,0 +1,44 @@
+.site {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: ($site-padding / 2);
+	grid-template-areas: 
+		"title empty header"
+		"main main main"
+		"main main main"
+		"footer footer footer";
+	
+	@media #{$medium} {
+		grid-template-areas: 
+			"title title title"
+			"header header header"
+			"main main main"
+			"footer footer footer";
+	}
+}
+.masthead {
+	grid-area: header;
+	background: $white;
+	
+	img {
+		width: 100%;
+	}
+}
+.page-title {
+	grid-area: title;
+	background: $silver;
+	margin: 0;
+}
+
+.main-content {
+	grid-area: main;
+	background: $gray;
+	color: $white;
+}
+
+.footer {
+	grid-area: footer;
+	background: black;
+	color: white;
+}
