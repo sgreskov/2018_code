@@ -21,9 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 
 // Basic Text Style
 
+html {
+  font-size: 1em;
+}
+
 p {
-  font: 400 $font-base/($font-base * 1.5) $site-font;
-  margin: 0 0 ($font-base * 1.5) 0;
+  font: 400 1em/1.5em $site-font;
+  margin-bottom: 1.5rem;
 }
 em {
   font-style: italic;

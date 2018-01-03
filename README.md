@@ -1,6 +1,6 @@
-Leveling up the personal website for 2018 
+Leveling up the personal website for 2018
 
-Old website review: 
+Old website review:
 
 Good
 
@@ -16,10 +16,12 @@ Bad
 4. lots of old stuff
 5. boring masonry
 
+----------------------------------------
+
 Priorities / Goals
 
 1. clean
-2. nice type 
+2. nice type
 3. more focus on work
 4. full list of service and capabilities
 
@@ -32,3 +34,21 @@ Services and Capabilities
 5. graphic design
 6. branding
 7. HTML emails
+
+Positioning
+
+1. What do I do?
+    1. design websites
+    2. develop websites
+    3. design logos
+    4. manage projects
+    5. design apps
+    6. design branding
+    7. lay out books
+    8.
+2. What do I call myself?
+    1. Multi-disciplinary Creative
+    2. Visual Communicator
+    3. Design Director
+    4. Maker
+    5.
