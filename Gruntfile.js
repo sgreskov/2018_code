@@ -8,7 +8,7 @@ module.exports = function(grunt) {
                 options: {
                     sassDir: 'dev/sass',
                     cssDir: 'site',
-                    specify: 'dev/sass/style.scss',
+                    specify: 'dev/sass/style.sass',
                     imagesDir: 'dev/i/'
                 }
             }
