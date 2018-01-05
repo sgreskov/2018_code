@@ -1,4 +1,10 @@
-Leveling up the personal website for 2018
+Leveling up the personal website for 2018 - Focus on Experimentation and thoughtful layout. Website should convey that I am curious and excited about design / technology. 
+
+To Learn:
+
+1. Javascript to measure from top of page / parent
+2. Javascript to add classes on hover or click (and remove on unhover / click other)
+3. Dead simple paralax
 
 Old website review:
 
@@ -51,4 +57,3 @@ Positioning
     2. Visual Communicator
     3. Design Director
     4. Maker
-    5.
